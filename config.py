@@ -9,12 +9,12 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("20937722"))
+API_HASH = getenv("b64fed7bd8d6ae5d5909c8472783f603")
 
 EVAL = list(map(int, getenv("EVAL", "7427691214 7045191057").split()))
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7010022450:AAEixXqUCOTJSkH3GiX8JSkvJEJRRbXjjL4")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","Ownergit")
 # --------------------------------------------------------
